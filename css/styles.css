@@ -365,6 +365,11 @@ Products
 Services
 =============
 */
+
+.services .section-center {
+  padding: 4rem 2rem 4rem 0rem;
+}
+
 .services-title {
   margin-top: 4rem;
   margin-bottom: -4rem;
@@ -372,7 +377,7 @@ Services
 }
 
 .service-card {
-  margin: 2rem auto;
+  margin: 2rem 0;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
